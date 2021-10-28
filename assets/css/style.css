@@ -33,11 +33,29 @@ img {
 body {
     font-family: Gotham Rounded;
     font-weight: 400;
+    color: #666;
 }
 
 h1 {
     font-size: 50px;
     font-weight: 700;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+strong {
+    font-weight: 500;
+}
+
+.color-green {
+    color: #01A79D;
 }
 
 .button-primary {
@@ -54,6 +72,36 @@ h1 {
     color: #fff;
 }
 
+.button-primary-arrow {
+    color: #fff !important;
+    padding: 15px 30px !important;
+    border-color: rgba(0,0,0,0);
+    border-radius: 100px;
+    text-transform: uppercase;
+    background-color: #01A79D;
+    font-size: 14px;
+}
+
+.button-primary-arrow:hover {
+    color: #fff;
+}
+
+.button-primary-arrow:after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f054";
+    font-weight: 800;
+    opacity: 0;
+    position: absolute;
+    margin-left: -1em;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+.button-primary-arrow:hover:after {
+    opacity: 1;
+    margin-left: 5px;
+}
+
 .button-secondary {
     color: #01A79D !important;
     padding: 15px 30px;
@@ -68,7 +116,21 @@ h1 {
     color: #fff;
 }
 
-.button-secondary:after {
+.button-secondary-arrow {
+    color: #01A79D !important;
+    padding: 15px 30px;
+    border-color: rgba(0,0,0,0);
+    border-radius: 100px;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    font-size: 14px;
+}
+
+.button-secondary-arrow:hover {
+    color: #fff;
+}
+
+.button-secondary-arrow:after {
     font-family: "Font Awesome 5 Free";
     content: "\f054";
     font-weight: 800;
@@ -79,7 +141,7 @@ h1 {
     transition: all .2s;
 }
 
-.button-secondary:hover:after {
+.button-secondary-arrow:hover:after {
     opacity: 1;
     margin-left: 5px;
 }
@@ -208,6 +270,7 @@ header .menu>ul>li.mega-menu>ul {
     -ms-flex-pack: center;
     justify-content: center;
     padding: 50px 0;
+    z-index: 1;
 }
 
 header .menu>ul>li.mega-menu>ul>ul {
@@ -233,6 +296,10 @@ header .menu>ul>li.mega-menu>ul>ul a:hover {
 
 header .menu>ul>li.mega-menu>ul img {
     max-width: 250px;
+}
+
+.header-section {
+    margin-bottom: 27px;
 }
 
 
@@ -262,3 +329,110 @@ header .menu>ul>li.mega-menu>ul img {
 #hero-section .lead {
     margin-bottom: 30px;
 }
+
+
+/* CTA Section */
+#cta-section {
+    padding: 54px 0;
+    background: #f2f4f6;
+    text-align: center;
+}
+
+#cta-section h2 {
+    margin-bottom: 30px;
+}
+
+
+/* Text Image Section */
+.text-image-section .text-box {
+    width: 50%;
+    padding: 100px;
+}
+
+.text-image-section .text-box h4 {
+    color: rgba(0,0,0,0.2);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.text-image-section .text-box h2 {
+    margin-bottom: 10px;
+}
+
+.text-image-section .text-box p {
+    color: #486066;
+    line-height: 1.8em;
+    font-size: 15px;
+}
+
+.text-image-section .image-box {
+    width: 50%;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+
+/*Image Text Section */
+.image-text-section .text-box {
+    width: 50%;
+    padding: 100px;
+    color: #fff;
+    background-color: #01A79D;
+}
+
+.image-text-section .text-box h4 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.image-text-section .text-box h2 {
+    margin-bottom: 10px;
+}
+
+.image-text-section .text-box p {
+    line-height: 1.8em;
+    font-size: 15px;
+}
+
+.image-text-section .image-box {
+    width: 50%;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+/* Getting Started is Easy Section */
+
+#getting-started-section {
+    padding: 127px 0 127px;
+}
+#getting-started-section .getting-item {
+    padding: 27px 0;
+}
+
+#getting-started-section .getting-item i {
+    display: inline-block;
+    font-size: 64px;
+    color: #01A79D;
+    margin-bottom: 30px;
+}
+#getting-started-section .getting-item h4 {
+    font-size: 18px;
+    color: #333;
+}
+#getting-started-section .getting-item p {
+    line-height: 28px;
+}
+
+#getting-started-section .getting-btn {
+    padding-top: 27px;
+}
+
+
+
+
