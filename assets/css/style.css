@@ -46,6 +46,10 @@ h2 {
     font-weight: 700;
 }
 
+h4 {
+    font-size: 18px;
+}
+
 strong {
     font-weight: 500;
 }
@@ -294,6 +298,10 @@ header .menu>ul>li.mega-menu>ul img {
     max-width: 250px;
 }
 
+.header-section {
+    margin-bottom: 27px;
+}
+
 
 
 /* Hero Section */
@@ -397,3 +405,34 @@ header .menu>ul>li.mega-menu>ul img {
     background-position: 50%;
     background-repeat: no-repeat;
 }
+
+/* Getting Started is Easy Section */
+
+#getting-started-section {
+    padding: 127px 0 127px;
+}
+#getting-started-section .getting-item {
+    padding: 27px 0;
+}
+
+#getting-started-section .getting-item i {
+    display: inline-block;
+    font-size: 64px;
+    color: #01A79D;
+    margin-bottom: 30px;
+}
+#getting-started-section .getting-item h4 {
+    font-size: 18px;
+    color: #333;
+}
+#getting-started-section .getting-item p {
+    line-height: 28px;
+}
+
+#getting-started-section .getting-btn {
+    padding-top: 27px;
+}
+
+
+
+
