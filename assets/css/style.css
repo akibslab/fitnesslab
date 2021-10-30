@@ -448,14 +448,17 @@ header .menu>ul>li.mega-menu>ul img {
     letter-spacing: 1px;
     line-height: 1.5em;
 }
+
 #trainig-studio-section .training-content p {
     line-height: 1.8em;
 }
 
+
 /* Team Section */
 #team-section {
-    padding: 127px 0 100px;
+    padding: 127px 0 130px;
 }
+
 #team-section .header-section h4 {
     text-transform: uppercase;
     font-size: 16px;
@@ -465,10 +468,13 @@ header .menu>ul>li.mega-menu>ul img {
     line-height: 1.3em;
 }
 
+#team-section .header-section {
+    margin-bottom: 90px;
+}
+
 #team-section .header-section h2 {
     line-height: 1.4em;
 }
-
 
 #team-section .team-items-section {
     max-width: 870px;
@@ -477,15 +483,13 @@ header .menu>ul>li.mega-menu>ul img {
     margin-top: 50px;
 }
 
-#team-section .team-items-section .btn-box {
-    padding: 60px 0 30px;
+#team-section .button-box {
+    margin-top: 60px;
 }
 
-#team-section .team-items-section a {
+#team-section a {
     text-decoration: none;
 }
-
-
 
 #team-section .team-item-box {
     font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
@@ -516,9 +520,7 @@ header .menu>ul>li.mega-menu>ul img {
 }
 
 #team-section .team-section-content p {
-    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
     color: #aaa;
     line-height: 1.8em;
     margin-bottom: 0;
-}
 }
