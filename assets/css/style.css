@@ -433,6 +433,25 @@ header .menu>ul>li.mega-menu>ul img {
     padding-top: 27px;
 }
 
+/* Training Studio Section */
+#trainig-studio-section {
+    background-image: url(../img/trainig-studio/bg.jpg);
+    padding: 54px 0;
+    background-size: cover;
+}
 
+#trainig-studio-section .training-content {
+    background-color: #ffffff;
+    padding: 70px 96px;
+    width: 80%;
+    margin: 0 auto;
+}
 
-
+#trainig-studio-section .training-content h2 {
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+#trainig-studio-section .training-content p {
+    line-height: 1.8em;
+}
