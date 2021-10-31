@@ -558,25 +558,34 @@ header .menu>ul>li.mega-menu>ul img {
     padding: 120px;
 }
 
-#newsletter-section .textbox-inner {
+#newsletter-section .text-box-inner {
     color: #fff;
+    text-align: right;
+    max-width: 600px;
+    width: 100%;
+    margin-left: auto;
 }
 
-#newsletter-section .textbox-inner h2 {
+#newsletter-section .text-box-inner h2 {
     font-size: 45px;
     letter-spacing: 2px;
     line-height: 1.5em;
 }
 
-#newsletter-section .textbox-inner p {
-    font-family: 'got-book',Helvetica,Arial,Lucida,sans-serif;
-    font-size: 18px;
+#newsletter-section .text-box-inner p {
+    font-size: 19px;
     line-height: 1.8em;
 }
 
 #newsletter-section .form-box {
     width: 50%;
     padding: 120px;
+}
+
+#newsletter-section .form-box-inner {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 #newsletter-section .form-group {
@@ -588,34 +597,26 @@ header .menu>ul>li.mega-menu>ul img {
     padding: 28px 26px;
     width: 100%;
     color: #01A79D;
-}
-
-.form-control::placeholder {
-    color: #01A79D;
     opacity: 1;
 }
 
-#newsletter-section .button-secondary-arrow {
-    width: 100%;
-}
-
-#newsletter-section .social-icon {
+#newsletter-section .social-icon-list {
     text-align: center;
     padding: 20px;
 }
 
-#newsletter-section .social-icon ul {
+#newsletter-section .social-icon-list ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-#newsletter-section .social-icon ul li {
+#newsletter-section .social-icon-list ul li {
     display: inline-block;
     margin: 10px;
 }
 
-#newsletter-section .social-icon ul li a {
+#newsletter-section .social-icon-list ul li a {
     width: 60px;
     height: 60px;
     background-color: rgba(0,0,0,0.18);
