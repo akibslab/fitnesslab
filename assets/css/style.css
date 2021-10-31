@@ -524,3 +524,87 @@ header .menu>ul>li.mega-menu>ul img {
     line-height: 1.8em;
     margin-bottom: 0;
 }
+
+
+/* Newsletter Section */
+#newsletter-section {
+    background-image: linear-gradient(180deg,#01a79d 0%,rgba(1,167,157,0.68) 70%),url(../img/Newsletter/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#newsletter-section .text-box {
+    background-image: linear-gradient(180deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0.18) 100%);
+    width: 50%;
+    padding: 120px;
+}
+
+#newsletter-section .textbox-inner {
+    color: #fff;
+}
+
+#newsletter-section .textbox-inner h2 {
+    font-size: 45px;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+}
+
+#newsletter-section .textbox-inner p {
+    font-family: 'got-book',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 18px;
+    line-height: 1.8em;
+}
+
+#newsletter-section .form-box {
+    width: 50%;
+    padding: 120px;
+}
+
+#newsletter-section .form-group {
+    margin-bottom: 30px;
+}
+
+#newsletter-section .form-control {
+    border-radius: 100px;
+    padding: 28px 26px;
+    width: 100%;
+    color: #01A79D;
+}
+
+.form-control::placeholder {
+    color: #01A79D;
+    opacity: 1;
+}
+
+#newsletter-section .button-secondary-arrow {
+    width: 100%;
+}
+
+#newsletter-section .social-icon {
+    text-align: center;
+    padding: 20px;
+}
+
+#newsletter-section .social-icon ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#newsletter-section .social-icon ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+#newsletter-section .social-icon ul li a {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0,0,0,0.18);
+    border-radius: 50%;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+}
