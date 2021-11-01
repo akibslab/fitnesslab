@@ -304,11 +304,11 @@ header .menu>ul>li.mega-menu>ul img {
     max-width: 250px;
 }
 
-.header-section {
+.section-header {
     margin-bottom: 50px;
 }
 
-.header-section h4 {
+.section-header h4 {
     margin-bottom: 25px;
 }
 
@@ -450,7 +450,7 @@ header .menu>ul>li.mega-menu>ul img {
     padding: 127px 0 127px;
 }
 
-#getting-started-section .header-section {
+#getting-started-section .section-header {
     margin-bottom: 60px;
 }
 
@@ -507,7 +507,7 @@ header .menu>ul>li.mega-menu>ul img {
     padding: 127px 0 130px;
 }
 
-#team-section .header-section h4 {
+#team-section .section-header h4 {
     text-transform: uppercase;
     font-size: 16px;
     color: rgba(0,0,0,0.2);
@@ -515,11 +515,11 @@ header .menu>ul>li.mega-menu>ul img {
     line-height: 1.3em;
 }
 
-#team-section .header-section {
+#team-section .section-header {
     margin-bottom: 90px;
 }
 
-#team-section .header-section h2 {
+#team-section .section-header h2 {
     line-height: 1.4em;
 }
 
@@ -664,7 +664,7 @@ header .menu>ul>li.mega-menu>ul img {
     background-color: #fafbfc;
 }
 
-#blog-section .header-section h4 {
+#blog-section .section-header h4 {
     color: rgba(0,0,0,0.2);
 }
 
@@ -908,7 +908,7 @@ footer .footer-bottom p {
     padding: 81px 0;
 }
 
-#intro-section .header-section {
+#intro-section .section-header {
     color: #01A79D;
 }
 
@@ -919,7 +919,58 @@ footer .footer-bottom p {
     margin: 0 auto;
     text-align: left;
     margin-bottom: 30px;
+    line-height: 1.8em;
 }
+
+
+/* Parallax Section Start */
+#parallax-section {
+    background-image: url(../img/parallax-section/bg.jpg);
+    height: 410px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* FAQ Section */
+#faq-section {
+    padding-top: 38px;
+}
+
+#faq-section h2 {
+    color: #333;
+}
+
+#faq-section .faq-box {
+    padding: 30px;
+    background: #f2f2f2;
+}
+
+#faq-section .faq-box .card:nth-child(1) {
+    background: #ccd8e5;
+}
+
+#faq-section .faq-box .card:nth-child(2) {
+    background: #dae1ed;
+}
+
+#faq-section .faq-box .card:nth-child(3) {
+    background: #e3e9ef;
+}
+#faq-section .faq-box .card {
+    border: none;
+    border-radius: 0;
+}
+#faq-section .faq-box .card-header {
+    border: none;
+    height: 65px;
+    
+}
+#faq-section .card .card-header {
+    cursor: pointer;
+}
+
 
 
 
