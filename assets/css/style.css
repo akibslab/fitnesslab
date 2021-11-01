@@ -358,6 +358,11 @@ header .menu>ul>li.mega-menu>ul img {
     padding: 100px;
 }
 
+.text-image-section .text-box.bg-green {
+    color: #fff;
+    background-color: #01A79D;
+}
+
 .text-image-section .text-box h4 {
     color: rgba(0,0,0,0.2);
     text-transform: uppercase;
@@ -366,14 +371,25 @@ header .menu>ul>li.mega-menu>ul img {
     margin-bottom: 10px;
 }
 
+.text-image-section .text-box.bg-green h4 {
+    color: #fff;
+}
+
 .text-image-section .text-box h2 {
     margin-bottom: 10px;
+}
+
+.text-image-section .text-box.bg-green h2 {
+    color: #fff;
 }
 
 .text-image-section .text-box p {
     color: #486066;
     line-height: 1.8em;
     font-size: 15px;
+}
+.text-image-section .text-box.bg-green p {
+    color: #fff;
 }
 
 .text-image-section .image-box {
@@ -388,19 +404,32 @@ header .menu>ul>li.mega-menu>ul img {
 .image-text-section .text-box {
     width: 50%;
     padding: 100px;
+}
+
+.image-text-section .text-box.bg-green {
     color: #fff;
     background-color: #01A79D;
 }
 
 .image-text-section .text-box h4 {
+    color: rgba(0,0,0,0.2);
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 16px;
     margin-bottom: 10px;
 }
 
+.image-text-section .text-box.bg-green h4 {
+    color: #fff;
+}
+
 .image-text-section .text-box h2 {
     margin-bottom: 10px;
+    color: #01A79D;
+}
+
+.image-text-section .text-box.bg-green h2 {
+    color: #fff;
 }
 
 .image-text-section .text-box p {
@@ -843,3 +872,55 @@ footer .footer-bottom p {
     color: #fff;
     font-size: 14px;
 }
+
+
+/* Hero Section Two */
+#hero-section-2 {
+    background: url(../img/service/bg.jpg);
+    background-color: rgba(0,0,0,0.55);
+    color: #fff;
+    background-position: 50%;
+    background-size: cover;
+    padding-top: 12vw;
+    padding-bottom: 12vw;
+    background-blend-mode: overlay;
+}
+
+#hero-section-2 .hero-contents {
+    max-width: 680px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#hero-section-2 span {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#hero-section-2 .lead {
+    margin-bottom: 30px;
+}
+
+/* Intro Section */
+#intro-section {
+    padding: 81px 0;
+}
+
+#intro-section .header-section {
+    color: #01A79D;
+}
+
+#intro-section .intro-text {
+    font-size: 14px;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+
+
+
