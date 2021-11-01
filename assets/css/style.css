@@ -710,7 +710,7 @@ header .menu>ul>li.mega-menu>ul img {
 
 #booking-section .booking-form-box {
     width: 80%;
-    max-width: 1080px;
+    max-width: 700px;
     margin: auto;
 }
 
@@ -718,7 +718,7 @@ header .menu>ul>li.mega-menu>ul img {
     color: #FFFFFF;
     line-height: 1.4em;
     text-align: center;
-    margin-bottom: 2.75%;
+    margin-bottom: 50px;
 }
 
 #booking-section .form-items .form-group {
@@ -752,6 +752,7 @@ header .menu>ul>li.mega-menu>ul img {
     font-size: 18px;
     line-height: 20px;
     font-weight: 500;
+    margin-bottom: 10px;
 }
 
 #booking-section .form-items label span{
@@ -759,59 +760,86 @@ header .menu>ul>li.mega-menu>ul img {
 }
 
 /* Footer Area */
-.footer-top {
+footer .footer-top {
     padding: 57px 0;
     background-color: #58585B;
 }
 
-.footer-top .logo-box{
-   max-width: 275px;
+footer .footer-top .container-fluid {
+   width: 90%;
+}
+
+footer .footer-top .logo-box {
+   max-width: 345px;
    width: 100%;
 }
 
-.footer-top .quick-links-box ul {
+footer .footer-top .quick-links-box ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-.footer-top .quick-links-box ul li a {
+footer .footer-top .quick-links-box ul li a {
    text-decoration: none;
    color: #fff;
    font-size: 14px;
+   text-transform: uppercase;
 }
 
-.footer-top .social-icon-list {
-    text-align: center;
-    padding: 20px;
+footer .footer-top .social-icon-list {
+    text-align: right;
 }
 
-.footer-top .social-icon-list ul {
+footer .footer-top .social-icon-list ul {
     list-style: none;
-    margin: 0;
+    margin: 0 0 30px;
     padding: 0;
 }
 
-.footer-top .social-icon-list ul li {
+footer .footer-top .social-icon-list ul li {
     display: inline-block;
-    margin: 10px;
+    margin-right: 10px;
 }
 
-.footer-top .social-icon-list ul li a {
-    width: 60px;
-    height: 60px;
+footer .footer-top .social-icon-list ul li:last-child {
+    margin-right: 0;
+}
+
+footer .footer-top .social-icon-list ul li a {
+    width: 50px;
+    height: 50px;
     background-color: rgba(0,0,0,0.18);
     border-radius: 50%;
-    line-height: 60px;
+    line-height: 52px;
     text-align: center;
     color: #fff;
     display: block;
     font-size: 20px;
 }
 
-.footer-top .social-icon-list p {
+footer .footer-top .social-icon-list p {
     color: #fff;
 }
-.footer-top .social-icon-list p a {
+
+footer .footer-top .social-icon-list p a {
     text-decoration: none;
     color: #fff;
+}
+
+footer .footer-bottom {
+    padding: 27px 0;
+    background: #000000;
+}
+
+footer .footer-bottom .text-box {
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+footer .footer-bottom p {
+    margin-bottom: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
 }
