@@ -1056,7 +1056,7 @@ footer .footer-bottom p {
 }
 
 #location-section .info-text ul {
-    padding: 0;
+    padding: 0 12px 0;
 }
 
 
@@ -1075,6 +1075,6 @@ footer .footer-bottom p {
 
 #location-details ul {
     font-size: 14px;
-    padding: 0;
+    padding: 0 12px 0;
     right: 1px;
 }
