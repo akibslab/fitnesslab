@@ -904,6 +904,7 @@ footer .footer-bottom p {
     margin-bottom: 30px;
 }
 
+
 /* Intro Section */
 #intro-section {
     padding: 81px 0;
@@ -927,16 +928,30 @@ footer .footer-bottom p {
 /* Parallax Section Start */
 #parallax-section {
     background-image: url(../img/parallax-section/bg.jpg);
-    height: 410px;
+    height: 575px;
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
     background-attachment: fixed;
 }
 
+
 /* FAQ Section */
 #faq-section {
-    padding-top: 38px;
+    padding: 80px 0 0;
+    position: relative;
+}
+
+#faq-section:after {
+    content: "";
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiMwMUE3OUQiPjxwYXRoIGQ9Ik0wIDB2MTQwaDEyODBMMCAweiIvPjwvZz48L3N2Zz4=);
+    background-size: 100% 100px;
+    transform: rotateY(180deg);
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 #faq-section h2 {
@@ -944,8 +959,10 @@ footer .footer-bottom p {
 }
 
 #faq-section .faq-box {
-    padding: 30px;
+    padding: 30px 30px 50px;
     background: #f2f2f2;
+    z-index: 1;
+    position: relative;
 }
 
 #faq-section .faq-box .card:nth-child(1) {
@@ -959,17 +976,33 @@ footer .footer-bottom p {
 #faq-section .faq-box .card:nth-child(3) {
     background: #e3e9ef;
 }
+
 #faq-section .faq-box .card {
     border: none;
     border-radius: 0;
 }
-#faq-section .faq-box .card-header {
-    border: none;
-    height: 65px;
-    
-}
+
 #faq-section .card .card-header {
     cursor: pointer;
+    position: relative;
+    padding-right: 35px;
+    border: none;
+    height: 70px;
+}
+
+#faq-section .card .card-header:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f055";
+    font-weight: 800;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    color: #01A79D;
+}
+
+#faq-section .card .card-header[aria-expanded="true"]:before {
+    content: "\f056";
 }
 
 /* Page Header Section */
