@@ -550,6 +550,7 @@ header .menu>ul>li.mega-menu>ul img {
     padding-left: 30px;
     box-shadow: 0px 10px 24px 6px rgba(0,0,0,0.06);
     text-align: center;
+    margin-bottom: 30px;
 }
 
 #team-section .team-section-content .team-img {
@@ -575,7 +576,7 @@ header .menu>ul>li.mega-menu>ul img {
 
 /* Newsletter Section */
 #newsletter-section {
-    background-image: linear-gradient(180deg,#01a79d 0%,rgba(1,167,157,0.68) 70%),url(../img/Newsletter/bg.jpg);
+    background-image: linear-gradient(180deg,#01a79d 0%,rgba(1,167,157,0.68) 70%),url(../img/newsletter/bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -971,7 +972,19 @@ footer .footer-bottom p {
     cursor: pointer;
 }
 
+/* Page Header Section */
+#page-header {
+    
+    background-position: center;
+    background-size: cover;
+    padding-top: 185px;
+    padding-bottom: 185px;
+}
 
+.page-header-content {
+    color: #fff;
+    line-height: 1.5em;
+}
 
 
 
