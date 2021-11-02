@@ -1067,6 +1067,7 @@ footer .footer-bottom p {
 #location-details{
     padding: 90px 0 100px;
 }
+
 #location-details h2{
     font-size: 26px;
     color: #333;
@@ -1081,3 +1082,190 @@ footer .footer-bottom p {
     padding: 0 12px 0;
     right: 1px;
 }
+
+
+/* Single Blog Section */
+
+#single-blog-header-section .post-header {
+    border-radius: 16px 16px 16px 16px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    box-shadow: 0px 2px 60px 10px rgba(0,0,0,0.08);
+}
+
+#single-blog-header-section .image-box {
+    background-image: url(../img/single-blog/blog-img.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+
+#single-blog-header-section .meta-box {
+    width: 50%;
+}
+
+
+#single-blog-header-section .meta-box .catagory-list ul{
+    list-style: none;
+    margin: 0;
+    max-width: 300px;
+    background-color: rgba(65,96,253,0.1);
+    position: relative;
+    border-radius: 40px 0 0 40px;
+    overflow: hidden;
+    padding-top: 8px;
+    padding-right: 24px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    margin-left: auto;
+    text-align: right;
+    margin-top: 40px;
+}
+
+#single-blog-header-section .meta-box .catagory-list ul a {
+    font-family: 'Ubuntu',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: #01A79D;
+    text-align: right;
+}
+
+#single-blog-header-section .meta-box .heading-box {
+    padding: 40px;
+}
+
+#single-blog-header-section .meta-box .heading-box h1 {
+    font-family: 'Gooo',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 48px;
+    color: #000000 !important;
+    line-height: 1.2em;
+    font-weight: 500;
+}
+
+#single-blog-header-section .meta-box .heading-box span {
+    color: #6d7c90;
+    font-size: 14px;
+}
+
+#single-blog-header-section .meta-box .meta-footer {
+    padding-top: 16px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    background-image: linear-gradient(165deg,#01a79d 0%,#01a79d 100%);
+    width: 100%;
+}
+
+#single-blog-header-section .meta-box .meta-footer .author-box img {
+    border-radius: 60px 60px 60px 60px;
+    overflow: hidden;
+    width: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+#single-blog-header-section .meta-box .meta-footer .author-box span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 2em;
+    color: #fff;
+    padding-left: 10px;
+}
+
+#single-blog-header-section .meta-box .meta-footer .author-box span a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#single-blog-header-section .meta-box .meta-footer .comment-box a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: right;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+#single-blog-header-section .meta-box .meta-footer .comment-box span {
+    color: #fff;
+    font-size: 16px;
+}
+
+#single-blog-header-section .post-contents {
+    padding: 81px 0 81px;
+}
+
+#single-blog-header-section .post-contents p {
+    font-size: 14px;
+    line-height: 1.9em;
+    color: #6d7c90;
+}
+
+#single-blog-header-section .post-contents h2 {
+    font-family: 'got-book',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 14px;
+    line-height: 26.6px;
+    color: #6d7c90;
+}
+
+/* Related Posts section */
+#related-posts-section {
+    padding: 81px 0 100px;
+}
+
+#related-posts-section .post-section-text h2 {
+    margin-bottom: 45px;
+    color: #000;
+    font-size: 42px;
+}
+
+#related-posts-section article{
+    border-radius: 8px 8px 8px 8px;
+    overflow: hidden;
+    border-width: 0px;
+    box-shadow: 0px 2px 60px 10px rgba(0,0,0,0.08);
+    color: #6d7c90;
+    border: 1px solid #d8d8d8;
+    background-color: #fff;
+    word-wrap: break-word;
+}
+
+#related-posts-section .post-contents{
+    padding: 19px;
+}
+
+#related-posts-section .post-contents a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+#related-posts-section .post-meta ul{
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #01A79D;
+    line-height: 1.9em;
+}
+
+#related-posts-section .post-meta ul li{
+    display: inline-block;
+}
+
+#related-posts-section .post-meta ul li a {
+    color: #01A79D;
+    font-size: 14px;
+    line-height: 1.9em;
+}
+
+#related-posts-section .post-contents p{
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.9em;
+}
+
+
+
