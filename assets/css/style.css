@@ -157,6 +157,17 @@ strong {
     font-weight: 500;
 }
 
+#page-header-section {
+    background-position: center;
+    background-size: cover;
+    padding-top: 185px;
+    padding-bottom: 185px;
+    background-blend-mode: overlay;
+    background-color: rgba(0,0,0,0.43);
+    color: #fff;
+    line-height: 1.5em;
+}
+
 
 /* Header Area */
 header .logo {
@@ -309,6 +320,11 @@ header .menu>ul>li.mega-menu>ul img {
 }
 
 .section-header h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: rgba(0,0,0,0.2);
+    letter-spacing: 1px;
+    line-height: 1.3em;
     margin-bottom: 25px;
 }
 
@@ -507,12 +523,8 @@ header .menu>ul>li.mega-menu>ul img {
     padding: 127px 0 130px;
 }
 
-#team-section .section-header h4 {
-    text-transform: uppercase;
-    font-size: 16px;
-    color: rgba(0,0,0,0.2);
-    letter-spacing: 1px;
-    line-height: 1.3em;
+#team-section.padding-sm {
+    padding: 100px 0 0;
 }
 
 #team-section .section-header {
@@ -523,34 +535,28 @@ header .menu>ul>li.mega-menu>ul img {
     line-height: 1.4em;
 }
 
-#team-section .team-items-section {
-    max-width: 870px;
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 50px;
-}
-
 #team-section .button-box {
     margin-top: 60px;
-}
-
-#team-section a {
-    text-decoration: none;
 }
 
 #team-section .team-item-box {
     font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
     line-height: 1.8em;
     background-color: #ffffff;
-    border-radius: 6px 6px 6px 6px;
+    border-radius: 6px;
     overflow: hidden;
-    padding-top: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
-    padding-left: 30px;
+    padding: 30px;
     box-shadow: 0px 10px 24px 6px rgba(0,0,0,0.06);
     text-align: center;
     margin-bottom: 30px;
+}
+
+#team-section .team-item-box:hover {
+    box-shadow: 0px 50px 80px 0px rgba(0,0,0,0.14);
+}
+
+#team-section .team-item-box a {
+    text-decoration: none;
 }
 
 #team-section .team-section-content .team-img {
@@ -663,10 +669,6 @@ header .menu>ul>li.mega-menu>ul img {
 #blog-section {
     padding: 125px 0;
     background-color: #fafbfc;
-}
-
-#blog-section .section-header h4 {
-    color: rgba(0,0,0,0.2);
 }
 
 #blog-section .blog-item {
@@ -1004,21 +1006,5 @@ footer .footer-bottom p {
 #faq-section .card .card-header[aria-expanded="true"]:before {
     content: "\f056";
 }
-
-/* Page Header Section */
-#page-header {
-    background-position: center;
-    background-size: cover;
-    padding-top: 185px;
-    padding-bottom: 185px;
-    background-blend-mode: overlay;
-    background-color: rgba(0,0,0,0.43);
-}
-
-.page-header-content {
-    color: #fff;
-    line-height: 1.5em;
-}
-
 
 
