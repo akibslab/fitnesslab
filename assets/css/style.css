@@ -1007,11 +1007,12 @@ footer .footer-bottom p {
 
 /* Page Header Section */
 #page-header {
-    
     background-position: center;
     background-size: cover;
     padding-top: 185px;
     padding-bottom: 185px;
+    background-blend-mode: overlay;
+    background-color: rgba(0,0,0,0.43);
 }
 
 .page-header-content {
