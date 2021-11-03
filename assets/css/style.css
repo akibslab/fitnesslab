@@ -555,10 +555,6 @@ header .menu>ul>li.mega-menu>ul img {
     box-shadow: 0px 50px 80px 0px rgba(0,0,0,0.14);
 }
 
-#team-section .team-item-box a {
-    text-decoration: none;
-}
-
 #team-section .team-section-content .team-img {
     display: block;
     width: auto;
@@ -571,6 +567,11 @@ header .menu>ul>li.mega-menu>ul img {
     margin-bottom: 10px;
     line-height: 1em;
     font-weight: 700;
+    text-decoration: none;
+}
+
+#team-section a:hover {
+    text-decoration: none;
 }
 
 #team-section .team-section-content p {
