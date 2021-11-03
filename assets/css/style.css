@@ -1268,4 +1268,122 @@ footer .footer-bottom p {
 }
 
 
+/* Team Single Section */
+#team-single-section {
+    padding: 61px 0 90px;
+}
+
+#team-single-section .details-box .section-header {
+    margin: 0;
+}
+
+#team-single-section .tab-area {
+    margin-bottom: 60px;
+}
+
+#team-single-section .tab-buttons {
+    width: 115px;
+    margin-right: 10px;
+}
+
+#team-single-section .tabs-box {
+    width: calc(100% - 125px);
+    border: 1px solid #00AFAB;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 15px 20px;
+    line-height: 1.700em;
+    font-size: 14px;
+}
+
+#team-single-section .tab-buttons ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#team-single-section .tab-buttons ul li {
+    margin-bottom: 11px;
+    text-align: center;
+}
+
+#team-single-section .tab-buttons ul li:last-child {
+    margin-bottom: 0;
+}
+
+#team-single-section .tab-buttons ul li a {
+    color: #01A79D;
+    text-decoration: none;
+    display: table-cell;
+    vertical-align: middle;
+    line-height: inherit;
+    border: 1px solid #00AFAB;
+    padding: 10px 0px;
+    border-radius: 5px;
+    transition: .3s;
+    position: relative;
+}
+
+#team-single-section .tab-buttons ul li a:hover {
+    color: #fff;
+    background-color: #01A79D;
+}
+
+#team-single-section .tab-buttons ul li a.active {
+    color: #fff;
+    background-color: #01A79D;
+}
+
+#team-single-section .tab-buttons ul li a:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 107%;
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 50%;
+    border: 5px solid transparent;
+    border-left: 6px solid #00AFAB;
+    display: none;
+}
+
+#team-single-section .tab-buttons ul li a.active:after, #team-single-section .tab-buttons ul li a:hover:after {
+    display: block;
+}
+
+#team-single-section .cta-box-2 {
+    background-color: #01a79d;
+    border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
+    color: #fff;
+    padding: 40px;
+}
+
+#team-single-section .cta-box-2 {
+    background-color: #01a79d;
+    border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
+    color: #fff;
+    padding: 40px;
+}
+
+#team-single-section .cta-box-2 h2 {
+    font-size: 26px;
+    line-height: 1em;
+}
+
+#team-single-section .cta-box-2 p {
+    font-size: 14px;
+    line-height: 1.7em;
+}
+
+
+
+
+
+
+
 
