@@ -1139,7 +1139,7 @@ footer .footer-bottom p {
 #single-blog-header-section .meta-box .heading-box h1 {
     font-family: 'Gooo',Helvetica,Arial,Lucida,sans-serif;
     font-size: 48px;
-    color: #000000 !important;
+    color: #000000;
     line-height: 1.2em;
     font-weight: 500;
 }
@@ -1380,10 +1380,108 @@ footer .footer-bottom p {
     line-height: 1.7em;
 }
 
+/* Blog Section Two */
+#blog-section-2 {
+    padding: 81px 0 81px;
+}
 
+#blog-section-2 .blog-item {
+    display: block;
+    box-shadow: 0 1px 3px rgba(0,0,0,.08);
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    margin-bottom: 35px;
+    overflow: hidden;
+}
 
+#blog-section-2 .blog-item article {
+    overflow: hidden;
+    position: relative;
+}
 
+#blog-section-2 .blog-item .image-box {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all .5s;
+ }
 
+#blog-section-2 .blog-item .image-box:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.45);
+}
 
+#blog-section-2 .blog-item a {
+    color: #fff;
+   text-decoration: none;
+}
 
+#blog-section-2 .blog-item h2 {
+    margin-bottom: 0;
+    z-index: 1;
+    position: relative;
+}
 
+#blog-section-2 .blog-item h2 a {
+   font-size: 20px;
+   padding: 153px 20px 95px;
+   text-transform: capitalize;
+   display: block;
+}
+
+#blog-section-2 .catagory {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+#blog-section-2 .catagory a {
+    border: 2px solid hsla(0,0%,92%,.9);
+    border-radius: 4px;
+    padding: 3px 6px;
+    font-size: 12px;
+    display: inline-block;
+}
+
+#blog-section-2 .meta-box {
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 20px;
+    border-top: 1px solid #fff;
+    line-height: 23.8px;
+    z-index: 1;
+    position: relative;
+}
+
+#blog-section-2 .blog-item:hover .image-box {
+    transform: scale(1.2);
+}
+
+#blog-section-2 .blog-item .meta-box {
+    padding: 10px 20px 10px;
+}
+
+#blog-section-2 .blog-item .meta-box ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#blog-section-2 .blog-item .meta-box ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#blog-section-2 .blog-item .meta-box ul li i {
+    margin-right: 5px;
+}
