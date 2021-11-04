@@ -888,8 +888,7 @@ footer .footer-bottom p {
     color: #fff;
     background-position: 50%;
     background-size: cover;
-    padding-top: 12vw;
-    padding-bottom: 12vw;
+    padding: 275px 0;
     background-blend-mode: overlay;
 }
 
@@ -903,12 +902,12 @@ footer .footer-bottom p {
     display: block;
     margin-bottom: 15px;
     font-size: 16px;
-    font-weight: 500;
 }
 
 #hero-section-2 .lead {
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 30px;
+    font-weight: 400;
 }
 
 
@@ -1018,7 +1017,11 @@ footer .footer-bottom p {
     padding: 81px 0 50px;
 }
 
-#location-section .text-box {
+#location-section .container-fluid {
+    width: 90%;
+}
+
+#location-section .intro-text {
     font-size: 14px;
     text-align: justify;
     margin-bottom: 80px;
@@ -1030,43 +1033,56 @@ footer .footer-bottom p {
     padding:30px 40px;
     margin: 20px 10px;
     box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
+    margin-right: 40px;
 }
 
-#location-section .icon-box {
+#location-section .info-box .icon-box {
     width: 50px;
     font-size: 40px;
     color: #01a79d;
 }
 
-#location-section .icon-box {
+#location-section .info-box .icon-box {
     width: 50px;
     font-size: 40px;
     color: #01a79d;
 }
 
-#location-section .info-text {
+#location-section .info-box .text-box {
     width: calc(100% - 50px);
 }
 
-#location-section .info-text h4 {
+#location-section .info-box .text-box h4 {
     color: #333;
     font-weight: 700;
     margin: 0;
     line-height: 36px;
 }
 
-#location-section .info-text  {
+#location-section .info-box .text-box  {
     font-size: 14px;
 }
 
-#location-section .info-text ul {
+#location-section .info-box .text-box ul {
     padding: 0 12px 0;
+}
+
+#location-section .map-box {
+    border-radius: 8px 8px 8px 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
+}
+
+#location-section .map-box #googleMap {
+    width: 100%;
+    height: 650px;
 }
 
 
 /* Location Details */
 #location-details{
     padding: 90px 0 100px;
+    font-size: 14px;
 }
 
 #location-details h2{
@@ -1075,29 +1091,23 @@ footer .footer-bottom p {
 }
 
 #location-details p {
-    font-size: 14px;
+    line-height: 1.7em;
 }
 
 #location-details ul {
-    font-size: 14px;
-    padding: 0 12px 0;
-    right: 1px;
+    padding-left: 20px;
 }
 
 
 /* Single Blog Section */
-
 #single-blog-header-section .post-header {
     border-radius: 16px 16px 16px 16px;
     overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 10;
+    margin-top: 80px;
     box-shadow: 0px 2px 60px 10px rgba(0,0,0,0.08);
 }
 
 #single-blog-header-section .image-box {
-    background-image: url(../img/single-blog/blog-img.jpg);
     background-size: cover;
     background-position: center;
     width: 50%;
@@ -1106,7 +1116,6 @@ footer .footer-bottom p {
 #single-blog-header-section .meta-box {
     width: 50%;
 }
-
 
 #single-blog-header-section .meta-box .catagory-list ul{
     list-style: none;
@@ -1123,6 +1132,10 @@ footer .footer-bottom p {
     margin-left: auto;
     text-align: right;
     margin-top: 40px;
+}
+
+#single-blog-header-section .meta-box .catagory-list ul li {
+    display: inline-block;
 }
 
 #single-blog-header-section .meta-box .catagory-list ul a {
@@ -1195,7 +1208,7 @@ footer .footer-bottom p {
 }
 
 #single-blog-header-section .post-contents {
-    padding: 81px 0 81px;
+    padding: 80px 0 85px;
 }
 
 #single-blog-header-section .post-contents p {
@@ -1211,9 +1224,10 @@ footer .footer-bottom p {
     color: #6d7c90;
 }
 
+
 /* Related Posts section */
 #related-posts-section {
-    padding: 81px 0 100px;
+    padding: 85px 0 100px;
 }
 
 #related-posts-section .post-section-text h2 {
@@ -1222,28 +1236,30 @@ footer .footer-bottom p {
     font-size: 42px;
 }
 
-#related-posts-section article{
+#related-posts-section article {
     border-radius: 8px 8px 8px 8px;
     overflow: hidden;
     border-width: 0px;
     box-shadow: 0px 2px 60px 10px rgba(0,0,0,0.08);
     color: #6d7c90;
-    border: 1px solid #d8d8d8;
     background-color: #fff;
     word-wrap: break-word;
 }
 
-#related-posts-section .post-contents{
+#related-posts-section .post-contents {
     padding: 19px;
 }
 
-#related-posts-section .post-contents a{
+#related-posts-section .post-contents a {
     text-decoration: none;
     color: #000;
+}
+
+#related-posts-section .post-contents a h2 {
     font-size: 16px;
 }
 
-#related-posts-section .post-meta ul{
+#related-posts-section .post-meta ul {
     list-style: none;
     padding: 0;
     font-size: 14px;
@@ -1252,7 +1268,7 @@ footer .footer-bottom p {
     line-height: 1.9em;
 }
 
-#related-posts-section .post-meta ul li{
+#related-posts-section .post-meta ul li {
     display: inline-block;
 }
 
@@ -1262,7 +1278,7 @@ footer .footer-bottom p {
     line-height: 1.9em;
 }
 
-#related-posts-section .post-contents p{
+#related-posts-section .post-contents p {
     margin: 0;
     font-size: 13px;
     line-height: 1.9em;
