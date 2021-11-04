@@ -733,6 +733,11 @@ header .menu>ul>li.mega-menu>ul img {
 
 #blog-section .blog-item .meta-box ul li a {
     color: #666;
+    text-decoration: none;
+}
+
+#blog-section .button-box {
+    padding: 56px 0 27px;
 }
 
 
@@ -1504,6 +1509,10 @@ footer .footer-bottom p {
     margin-right: 5px;
 }
 
+#blog-section-2 .item-menu ul {
+    margin-bottom: 50px;
+}
+
 #blog-section-2 .item-menu ul li{
     list-style: none;
     padding: 12px 12px;
@@ -1513,7 +1522,7 @@ footer .footer-bottom p {
     background-position: 50%;
     background-repeat: no-repeat;
     cursor: pointer;
-    margin-right: 15px;
+    margin-right: 10px;
     font-size: 14px;
     transition: all .3s ease;
 }
