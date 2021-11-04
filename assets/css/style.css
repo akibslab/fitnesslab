@@ -1287,7 +1287,12 @@ footer .footer-bottom p {
 
 /* Team Single Section */
 #team-single-section {
-    padding: 61px 0 90px;
+    padding: 85px 0 90px;
+    background-color: #f9f9f9;
+}
+
+#team-single-section .container-fluid {
+    width: 85%;
 }
 
 #team-single-section .details-box .section-header {
@@ -1305,12 +1310,15 @@ footer .footer-bottom p {
 
 #team-single-section .tabs-box {
     width: calc(100% - 125px);
-    border: 1px solid #00AFAB;
-    border-radius: 5px;
     margin-top: 10px;
-    padding: 15px 20px;
     line-height: 1.700em;
     font-size: 14px;
+}
+
+#team-single-section .tabs-box .tab {
+    border: 1px solid #00AFAB;
+    border-radius: 5px;
+    padding: 15px 20px;
 }
 
 #team-single-section .tab-buttons ul {
@@ -1339,6 +1347,8 @@ footer .footer-bottom p {
     border-radius: 5px;
     transition: .3s;
     position: relative;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 #team-single-section .tab-buttons ul li a:hover {
@@ -1355,7 +1365,7 @@ footer .footer-bottom p {
     content: '';
     display: block;
     position: absolute;
-    left: 107%;
+    left: 100%;
     -moz-transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -o-transform: translateX(-50%);
@@ -1365,6 +1375,7 @@ footer .footer-bottom p {
     border: 5px solid transparent;
     border-left: 6px solid #00AFAB;
     display: none;
+    margin-left: 6px;
 }
 
 #team-single-section .tab-buttons ul li a.active:after, #team-single-section .tab-buttons ul li a:hover:after {

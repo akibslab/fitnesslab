@@ -13,6 +13,15 @@
 	    });
 
 
+        $('#team-single-section .tab:not(:first)').hide();
+        $('#team-single-section .tab-buttons a').click(function(){
+            $("#team-single-section .tab-buttons a").removeClass("active");
+            $(this).addClass("active");
+            $('#team-single-section .tab').hide();
+            $('#team-single-section #tab-'+$(this).attr('data-index')).fadeIn();
+        });
+
+
 		// Google Map
 	    var myCenter = new google.maps.LatLng(51.258905, -0.156246);
 
